@@ -8,21 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		518B526A2BB408C100419436 /* TrainingTabataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B52692BB408C100419436 /* TrainingTabataApp.swift */; };
-		518B526C2BB408C100419436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B526B2BB408C100419436 /* ContentView.swift */; };
+		518B526C2BB408C100419436 /* FirstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B526B2BB408C100419436 /* FirstPageView.swift */; };
 		518B526E2BB408C900419436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518B526D2BB408C900419436 /* Assets.xcassets */; };
 		518B52712BB408C900419436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518B52702BB408C900419436 /* Preview Assets.xcassets */; };
 		519185532BC2E26A0081B81A /* TimerManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519185522BC2E26A0081B81A /* TimerManagement.swift */; };
 		519185562BC4284C0081B81A /* QuickTimerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519185552BC4284C0081B81A /* QuickTimerCount.swift */; };
+		519185582BC5765F0081B81A /* SetUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519185572BC5765F0081B81A /* SetUpView.swift */; };
+		51B59E932BC61008004F027E /* SubViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B59E922BC61008004F027E /* SubViewComponent.swift */; };
+		51B59E962BC659D6004F027E /* TabataCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B59E952BC659D6004F027E /* TabataCountView.swift */; };
+		51B59E982BC65D88004F027E /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B59E972BC65D88004F027E /* BottomNavigationView.swift */; };
+		51B59E9A2BC65EEA004F027E /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B59E992BC65EEA004F027E /* LogView.swift */; };
+		51B59E9C2BC65EFC004F027E /* YouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B59E9B2BC65EFC004F027E /* YouView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		518B52662BB408C100419436 /* TrainingTabata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingTabata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518B52692BB408C100419436 /* TrainingTabataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTabataApp.swift; sourceTree = "<group>"; };
-		518B526B2BB408C100419436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		518B526B2BB408C100419436 /* FirstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageView.swift; sourceTree = "<group>"; };
 		518B526D2BB408C900419436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		518B52702BB408C900419436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		519185522BC2E26A0081B81A /* TimerManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManagement.swift; sourceTree = "<group>"; };
 		519185552BC4284C0081B81A /* QuickTimerCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTimerCount.swift; sourceTree = "<group>"; };
+		519185572BC5765F0081B81A /* SetUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpView.swift; sourceTree = "<group>"; };
+		51B59E922BC61008004F027E /* SubViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewComponent.swift; sourceTree = "<group>"; };
+		51B59E952BC659D6004F027E /* TabataCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataCountView.swift; sourceTree = "<group>"; };
+		51B59E972BC65D88004F027E /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		51B59E992BC65EEA004F027E /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		51B59E9B2BC65EFC004F027E /* YouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +87,14 @@
 		519185512BC281DE0081B81A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				518B526B2BB408C100419436 /* ContentView.swift */,
+				51B59E942BC61218004F027E /* SubVIew */,
+				51B59E972BC65D88004F027E /* BottomNavigationView.swift */,
+				518B526B2BB408C100419436 /* FirstPageView.swift */,
 				519185552BC4284C0081B81A /* QuickTimerCount.swift */,
+				519185572BC5765F0081B81A /* SetUpView.swift */,
+				51B59E952BC659D6004F027E /* TabataCountView.swift */,
+				51B59E992BC65EEA004F027E /* LogView.swift */,
+				51B59E9B2BC65EFC004F027E /* YouView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +105,14 @@
 				519185522BC2E26A0081B81A /* TimerManagement.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		51B59E942BC61218004F027E /* SubVIew */ = {
+			isa = PBXGroup;
+			children = (
+				51B59E922BC61008004F027E /* SubViewComponent.swift */,
+			);
+			path = SubVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518B526C2BB408C100419436 /* ContentView.swift in Sources */,
+				518B526C2BB408C100419436 /* FirstPageView.swift in Sources */,
 				518B526A2BB408C100419436 /* TrainingTabataApp.swift in Sources */,
 				519185532BC2E26A0081B81A /* TimerManagement.swift in Sources */,
 				519185562BC4284C0081B81A /* QuickTimerCount.swift in Sources */,
+				519185582BC5765F0081B81A /* SetUpView.swift in Sources */,
+				51B59E982BC65D88004F027E /* BottomNavigationView.swift in Sources */,
+				51B59E932BC61008004F027E /* SubViewComponent.swift in Sources */,
+				51B59E9A2BC65EEA004F027E /* LogView.swift in Sources */,
+				51B59E9C2BC65EFC004F027E /* YouView.swift in Sources */,
+				51B59E962BC659D6004F027E /* TabataCountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

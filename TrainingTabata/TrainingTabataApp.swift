@@ -11,7 +11,7 @@ import SwiftUI
 struct TrainingTabataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BottomNavigationView()
         }
     }
 }
